@@ -1,3 +1,5 @@
+var Buffer = require('buffer/').Buffer
+
 export async function onRequest(ctx) {
     try {
         return await get_file(ctx);
